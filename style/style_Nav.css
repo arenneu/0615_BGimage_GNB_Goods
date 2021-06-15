@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* GNB 메뉴 시작 */
+nav#gnb {
+    border: 1px solid #aaa;
+}
+
+#gnb a {
+    /*border: 1px solid #aaa;*/
+    padding: 0 30px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    color: #aaa;
+}
+
+#gnb a:hover {
+    font-weight: bold;
+    color: #bac2cc;
+    background-color: rgba(186, 194, 204, 0.37);
+}
+
+#gnb ul.subMenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+/* 서브 메뉴 부분을 가려줌 */
+
+/* GNB 메뉴 끝 */
